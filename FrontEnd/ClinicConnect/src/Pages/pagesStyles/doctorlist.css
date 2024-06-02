@@ -1,0 +1,13 @@
+.doctorlist-container{
+    margin-top: 4rem;
+}
+.doctorlist-container h1{
+    font-size: 2.4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.doctorlist{
+    display: flex;
+    flex-wrap: wrap;
+}

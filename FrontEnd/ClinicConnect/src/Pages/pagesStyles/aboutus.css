@@ -1,0 +1,17 @@
+.aboutus-container{
+    text-align: center;
+    margin-top:5rem;
+    font-size:1.6rem
+}
+
+.aboutus-container ul{
+    margin-top: 3rem;
+    list-style-type: none;
+    text-align: left;
+    font-size: 1.8rem;
+}
+
+.aboutus ul li{
+    margin: 2rem 0;
+}
+

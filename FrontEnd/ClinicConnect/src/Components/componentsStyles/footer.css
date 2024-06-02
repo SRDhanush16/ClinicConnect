@@ -1,0 +1,32 @@
+/* Footer start */
+
+footer {
+    background-color: #373A40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    height: 4rem;
+    font-size: 1.4rem;
+    
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Ensure it spans the full width */
+}
+
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    width: 100rem;
+    
+}
+
+.footer-div ul{
+    display: flex;
+    gap:2rem;
+    list-style-type: none;
+}
+
+/* Footer end */

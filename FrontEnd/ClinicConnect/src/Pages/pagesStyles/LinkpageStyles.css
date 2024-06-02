@@ -1,0 +1,48 @@
+
+.linkpage-container {
+    padding-top:15%;
+    background:linear-gradient(to bottom, lightblue, #316dce);
+    height:100vh;
+  }
+  
+  .link-group {
+    margin: 0 auto;
+    width: 120rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:10rem;
+  }
+  
+  .linkbox {
+    width: 30rem;
+    height: auto;
+    padding: 4rem;
+    background: linear-gradient(to bottom right, #417ddf, #5e5ecd);
+    border: 0.2rem solid #316dce;
+    border-radius: 0.5rem;
+    text-align: center;
+    
+  }
+  
+  .linkbox .link {
+    text-decoration: none;
+    color: rgb(12, 11, 11);
+    font-size: 1.8rem;
+    display: block;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    margin-top: 4rem;
+  }
+  .linkbox .link:hover {
+    background-color: rgb(8, 231, 68); /* Change background color on hover */
+    color: whitesmoke; /* Change text color on hover */
+  }
+  
+  
+  .linkbox .description {
+    font-size: 1.8rem;
+    color: whitesmoke;
+    
+  }

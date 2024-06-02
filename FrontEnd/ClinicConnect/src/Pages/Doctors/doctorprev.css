@@ -1,0 +1,50 @@
+
+.doctorpre{
+    margin-top: 4rem;
+}
+
+.doctorprev h1{
+    font-size: 2.4rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+
+.filter-sort-container {
+    display: flex;
+    gap:4rem;
+    margin-bottom: 4rem;
+}
+
+.filter-sort-container div {
+    margin-bottom: 15px;
+}
+
+.filter-sort-container label {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #555;
+}
+
+.filter-sort-container input[type="date"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.filter-sort-container button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter-sort-container button:hover {
+    background-color: #0056b3;
+}

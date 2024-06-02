@@ -1,0 +1,44 @@
+.appointmentcard {
+    background-color: #fff;
+    border: 0.3rem solid #ddd;
+    border-radius: 10%;
+    padding: 2rem;
+    margin: 1rem 0rem;
+    margin-right: 3rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    width: 30%;
+}
+
+.appointmentshow{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.appointmentcard p {
+    margin: 0.5rem 0;
+    color: #333;
+    font-size: 1.6rem;
+}
+
+.appointmentcard button {
+    margin-top: 2rem;
+    background-color: #ff4d4d; /* Red background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 1rem 1.5rem; /* Padding around the button */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1.4rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for background color and transform */
+}
+
+.appointmentcard button:hover {
+    background-color: #e60000; /* Darker red on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+.appointmentcard:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
