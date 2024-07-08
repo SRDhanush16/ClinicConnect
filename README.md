@@ -12,11 +12,12 @@ Tools used: React.js, Spring-Boot, mysql
 4) <b>Designed a responsive frontend</b> using React.js, ensuring optimal user experience across various devices, including mobiles, tablets, laptops, and desktops.
 5) <b>Automated booking confirmations:</b> Employed JavaMailSender to send booking confirmation emails, improving user communication and engagement.
 
-## Previous Versions
-Transitioned from MVC to REST architecture: Initially developed with Thymeleaf in MVC architecture, later restructured to a RESTful architecture for better scalability and maintainability.
 
 ## Demonstration
 
 https://github.com/SRDhanush16/ClinicConnect/assets/141258864/f6dd63ba-0c4e-4ede-8101-5fea3b52ab9e
+
+## Previous Versions
+Transitioned from MVC to REST architecture: Initially developed with Thymeleaf in MVC architecture, later restructured to a RESTful architecture for better scalability and maintainability.
 
 
