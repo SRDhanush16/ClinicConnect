@@ -20,7 +20,6 @@ Transitioned from MVC to REST architecture: Initially developed with Thymeleaf i
 
 ## Demonstration
 
-## Demo
 https://github.com/SRDhanush16/ClinicConnect/assets/141258864/f6dd63ba-0c4e-4ede-8101-5fea3b52ab9e
 
 
