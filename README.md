@@ -13,7 +13,7 @@ Tools used: React.js, Spring-Boot, mysql
 5) <b>Automated booking confirmations:</b> Employed JavaMailSender to send booking confirmation emails, improving user communication and engagement.
 
 
-## Demonstration
+## Video Demonstration
 
 https://github.com/SRDhanush16/ClinicConnect/assets/141258864/f6dd63ba-0c4e-4ede-8101-5fea3b52ab9e
 
