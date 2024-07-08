@@ -5,15 +5,12 @@ A robust web platform designed for clinics, allowing patients to seamlessly book
 
 Tools used: React.js, Spring-Boot, mysql
 
-## Problem Addressed
-
-1) Enhanced security with JWT: Implemented JSON Web Tokens for robust security, addressing issues like concurrent logins and protected webpages.
-2) Integrated RBAC with JWT: Minimized database querying by embedding Role-Based Access Control within JWT, ensuring efficient and secure access management.
-3) Utilized Spring Data JPA: Efficiently managed data querying, enhancing the backend performance and data handling.
-
-## Other Functionalities
-1) Designed a responsive frontend using React.js, ensuring optimal user experience across various devices, including mobiles, tablets, laptops, and desktops.
-2) Automated booking confirmations: Employed JavaMailSender to send booking confirmation emails, improving user communication and engagement.
+## Functionalities Implemented
+1) <b>Enhanced security with JWT:</b> Implemented JSON Web Tokens for robust security, addressing issues like concurrent logins and protected webpages.
+2) <b>Integrated RBAC with JWT:</b> Minimized database querying by embedding Role-Based Access Control within JWT, ensuring efficient and secure access management.
+3) <b>Utilized Spring Data JPA:</b> Efficiently managed data querying, enhancing the backend performance and data handling.
+4) <b>Designed a responsive frontend</b> using React.js, ensuring optimal user experience across various devices, including mobiles, tablets, laptops, and desktops.
+5) <b>Automated booking confirmations:</b> Employed JavaMailSender to send booking confirmation emails, improving user communication and engagement.
 
 ## Previous Versions
 Transitioned from MVC to REST architecture: Initially developed with Thymeleaf in MVC architecture, later restructured to a RESTful architecture for better scalability and maintainability.
