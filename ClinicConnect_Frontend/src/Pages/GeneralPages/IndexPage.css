@@ -1,0 +1,145 @@
+.background-index-img {
+    background-image: url("/public/images/medical-index-img2.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;     
+}
+
+.background-index-overlay{
+    background-image: linear-gradient(to bottom, rgba(89, 87, 87, 0.24), rgba(75, 75, 74, 0.642));
+}
+
+.index-intro-container{
+    padding-top: 5%;
+    padding-bottom: 5%; 
+    
+}
+
+.index-intro-container main{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.intro-content{
+   text-align: center;
+   font-size: 3.2rem;
+
+}
+.intro-content h1{
+    font-size: 7.2rem;
+    padding-bottom: 3rem;
+    color: rgb(237, 237, 237);
+}
+.intro-content p{
+    font-size: 3.2rem;
+    font-weight: 800;
+    padding-bottom: 3rem;
+    color: rgb(237, 237, 237);
+}
+
+.intro-content button{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1.6rem;
+    background: -webkit-linear-gradient(#135D66, #003C43); /* Same gradient as h1 */
+    border: 2px solid #135D66; /* Border color */
+    
+            
+}
+
+.intro-content button:hover {
+    background-color: #135D66; /* Change background on hover */
+    color: #fff; /* Change text color on hover */
+    border-radius: 50%;
+    transition: .5s;
+}
+
+
+
+/*============= */
+
+.background-index-services{
+    background-image: linear-gradient(to bottom right, #152D35, #345B63);
+}
+
+.services-grid{
+    display: flex;
+    gap:10rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    justify-content: center;
+   
+}
+.services-grid div{
+    width:30rem;
+    font-size: 1.8rem;
+    border: white 2px solid;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10% ;
+    padding: 1rem;
+    text-align: justify;
+    background-image: linear-gradient(to bottom right, #d4ecdd, #a3dfbaec);
+}
+.services-grid div img{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.services-grid div h2{
+    padding-bottom: 3rem;
+}
+
+.services-grid div button{
+    margin-top: 3rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+.services-grid div:nth-child(3) p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: black 1px solid;
+}
+
+
+@media(max-width:102em){
+    html{
+        font-size: 8px;
+    }
+}
+
+@media(max-width:76.8em){
+    html{
+        font-size: 6px;
+    }
+}
+
+@media(max-width:35em){
+
+    html{
+        font-size: 62.5%;
+    }
+
+    .intro-content {
+       padding-left: 2rem;
+       padding-right: 2rem;
+    }
+    .intro-content h1{
+        font-size: 4.2rem;
+    }
+    .intro-content p{
+        display: none;
+        font-size: 1.6rem;
+    }
+
+    .services-grid{
+        display: flex;
+        flex-direction: column;
+        gap:10rem;
+
+        align-items: center;
+    }
+    
+}
+

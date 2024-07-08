@@ -1,0 +1,39 @@
+.background-about-img {
+    background-image: url("/public/images/medical-aboutus-img.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;     
+}
+
+
+.about-container{
+    padding-top: 5%;
+    padding-bottom: 5%; 
+    font-size: 2.4rem;
+}
+
+.aboutus h1{
+    margin-bottom: 5rem;
+}
+
+.aboutus ul li{
+    list-style-type: none;
+    margin-bottom: 5rem;
+}
+
+
+@media(max-width:35em){
+    .about-container{
+        font-size: 1.8rem;
+    }
+    .aboutus h1{
+        text-align: center;
+    }
+
+    
+    .aboutus ul li{
+        margin:2rem;
+        line-height: 2rem;
+    }
+    
+}

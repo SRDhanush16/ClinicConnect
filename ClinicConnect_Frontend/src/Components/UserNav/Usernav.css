@@ -1,0 +1,56 @@
+.userlinks-nav{
+    background-color: whitesmoke;
+    border-top: 1px mediumseagreen solid;
+    border-bottom: 1px midnightblue solid;
+}
+
+.userlinks a{
+    text-decoration: none;
+    color: black;
+}
+
+.userlinks a:hover{
+    text-decoration: none;
+    color: rgb(85, 86, 86);
+    font-weight: 600;
+}
+
+.userlinks-nav div ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 1rem 3rem 1rem 3rem;
+    font-size: 1.6rem;
+}
+
+.userlinks-nav ul li button{
+    padding: 0.5rem 1rem;
+}
+
+.userlinks-nav ul li  img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.userdetails-nav{
+    border-bottom: 1px mediumseagreen solid;
+}
+
+.usernav-container ul{
+    list-style: none;
+    display: flex;
+    gap:2rem;
+    justify-content: center;
+    padding-top:3rem;
+    padding-bottom: 3rem;
+    font-size: 1.6rem;
+}
+
+@media(max-width:35em){
+    .usernav-container ul{
+        flex-direction: column;
+        justify-content: none;
+        align-items: center;
+    }
+}

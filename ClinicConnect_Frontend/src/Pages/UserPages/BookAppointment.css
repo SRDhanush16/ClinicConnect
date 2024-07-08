@@ -1,0 +1,102 @@
+.background-appointment-form-img {
+    background-image: url("/public/images/medical-createaccount-img.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;     
+}
+
+.background-appointment-form-overlay{
+    background-image: linear-gradient(to bottom, rgba(3, 113, 76, 0.973), rgba(1, 57, 37, 0.909));
+}
+
+.appointment-container{
+    padding-top: 5%;
+    padding-bottom: 5%; 
+    margin-bottom: 10rem;
+}
+
+.appointment-container h1{
+    font-size: 3.2rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    color: whitesmoke;
+}
+
+.appointment-container form{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.appointment-container form label{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    color: whitesmoke;
+    gap:0.5rem;
+}
+
+.appointment-container form label input{
+    width: 100%;
+    padding: 1rem;
+    border: 0.1rem solid #555;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.appointment-container form button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+
+.appointment-container form button:hover{
+    background-color: #0056b3;
+}
+
+.appointment-container form p{
+    font-size: 1.8rem;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.appointment-container form select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.appointment-container form option {
+    padding: 0.5rem;
+    background-color: #fff;
+    color: #333;
+    font-size: 1.8rem;
+}
+
+/* Additional styling for select focus state */
+.appointment-container form select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+@media(max-width:35em){
+    .appointment-container form{
+        width: 80%;
+    }
+}

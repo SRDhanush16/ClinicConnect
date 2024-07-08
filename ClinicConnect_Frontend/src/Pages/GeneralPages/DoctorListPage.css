@@ -1,0 +1,48 @@
+.background-doctorlist-img {
+    background-image: url("/public/images/medical-doctorlist-img.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;     
+}
+
+/* .background-links-overlay{
+    background-image: linear-gradient(to bottom, rgba(115, 234, 194, 0.377), rgba(194, 206, 202, 0.381));
+} */
+
+.doctorlist-container{
+    padding-top: 5%;
+    padding-bottom: 5%; 
+
+    font-size: 1.8rem;
+}
+
+.doctorlist-container h1{
+    font-size: 3.2rem;
+    margin-bottom: 10rem;
+}
+
+.doctorlist{
+    display: flex;
+    gap:10rem;
+}
+.doctorlist div{
+    text-align: center;
+}
+
+.doctorlist div p:nth-child(3){
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+@media(max-width:35em){
+
+    .doctorlist-container h1{
+        text-align: center;
+        font-size: 2.4rem;
+    }
+
+    .doctorlist{
+        flex-direction: column;
+
+    }
+}

@@ -1,0 +1,60 @@
+.background-links-img {
+    background-image: url("/public/images/medical-links-img.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;     
+}
+
+.background-links-overlay{
+    background-image: linear-gradient(to bottom, rgba(115, 234, 194, 0.377), rgba(194, 206, 202, 0.381));
+}
+
+.links-container{
+    padding-top: 5%;
+    padding-bottom: 5%; 
+    margin-bottom: 10rem;
+    
+}
+
+.links-grid{
+    display: flex;
+    gap:5rem;
+    justify-content: center;
+}
+
+.links-grid div{
+    font-size: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+    background-image: linear-gradient(to bottom, rgba(98, 239, 239, 0.468), rgba(15, 227, 188, 0.642));
+    padding: 1.5rem;
+    border-radius: 5%;
+}
+
+.links-grid div p{
+    line-height: 5rem;
+}
+
+.links-grid div a{
+    text-decoration: none;
+}
+
+
+@media(max-width:35em){
+    .links-grid{
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+        margin:0 auto;
+        
+    }
+
+    .links-grid div{
+        font-size: 1.4rem;
+    }
+
+    .links-grid div p{
+        line-height:normal;
+    }
+}
