@@ -1,7 +1,29 @@
 # ClinicConnect
 
-A website platform created for clinics, enabling users to book and cancel appointments, and doctors to 
-manage appointments with sorting and filtering options. The platform provides security using Spring SecurityJWT web 
-tokens and queries the database using Spring Data JPA. Also uses JavaMailSender to send notifications to user email id. 
-It addresses problems such as concurrent login and a fixed number of appointments per slot.The tech stack includes 
-ReactJS, Spring Boot, and MySQL.
+A robust web platform designed for clinics, allowing patients to seamlessly book and cancel appointments while enabling doctors to efficiently manage appointments with advanced sorting and filtering options. Security is ensured using Spring Security with JWT, addressing issues like concurrent logins and enforcing a fixed number of appointments per slot. The platform leverages Spring Data JPA for efficient database querying and utilizes JavaMailSender to send timely notifications to user email IDs. This comprehensive solution streamlines appointment management, enhancing the overall user experience for both patients and healthcare providers.
+
+
+Tools used: React.js, Spring-Boot, mysql
+
+## Problem Addressed
+
+1) Enhanced security with JWT: Implemented JSON Web Tokens for robust security, addressing issues like concurrent logins and protected webpages.
+2) Integrated RBAC with JWT: Minimized database querying by embedding Role-Based Access Control within JWT, ensuring efficient and secure access management.
+3) Utilized Spring Data JPA: Efficiently managed data querying, enhancing the backend performance and data handling.
+
+## Other Functionalities
+1) Designed a responsive frontend using React.js, ensuring optimal user experience across various devices, including mobiles, tablets, laptops, and desktops.
+2) Automated booking confirmations: Employed JavaMailSender to send booking confirmation emails, improving user communication and engagement.
+
+## Previous Versions
+Transitioned from MVC to REST architecture: Initially developed with Thymeleaf in MVC architecture, later restructured to a RESTful architecture for better scalability and maintainability.
+
+## Demonstration
+
+## Demo
+
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://youtu.be/QDoarrnvH0M)
+
+
+
+
